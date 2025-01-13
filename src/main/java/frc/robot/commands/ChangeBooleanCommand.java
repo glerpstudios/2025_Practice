@@ -20,7 +20,7 @@ public class ChangeBooleanCommand extends Command {
   public ChangeBooleanCommand(ChangeBooleanSubsystem subsystem) {
     m_subsystem = subsystem;
     // Use addRequirements() here to declare subsystem dependencies.
-    addRequirements(subsystem);
+    addRequirements(subsystem); 
   }
 
   // Called when the command is initially scheduled.
